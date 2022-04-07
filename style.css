@@ -1,0 +1,59 @@
+h1{
+    text-transform: uppercase;
+    border: 5px solid green;
+    padding: 40px;
+    padding-left: 0;
+}
+h2{
+    text-transform: uppercase;
+    border: 8px solid red;
+    text-align: right;
+    background: linear-gradient(to right ,green , purple);
+    padding: 10px 0;
+}
+.list1{
+    list-style-position: inside;
+    color: red;
+}
+.list1 li:first-child{
+    color: pink;
+    border: 3px solid green;
+}
+.list1 span{
+    color: aquamarine;
+    font-weight: 700;
+    font-size: 20px;
+}
+.list2 li{
+    margin-bottom: 20px;
+    color: green;
+    background-color: pink;
+}
+.list3{
+    color: blue;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 700;
+    text-shadow: 2px 2px 5px red;
+    list-style: none;
+}
+img{
+    margin-right: 1200px;
+    margin-bottom: 20px;
+}
+.div1{
+    border-top: 10px solid red;
+    border-bottom: 10px dotted red;
+    background-color: aquamarine;
+}
+.div2{
+    margin-bottom: 20px;
+}
+.password{
+    border: 3px solid purple;
+    box-shadow: 4px 4px 7px black;
+}
+.div1 img:nth-child(2){
+    /* Прозрачность */
+    opacity: .5;
+}
